@@ -3,7 +3,7 @@ name: tests-yaml
 on:
   pull_request:
     paths:
-      - 'orders/**''
+      - 'orders/**'
 
 jobs:
   build:
