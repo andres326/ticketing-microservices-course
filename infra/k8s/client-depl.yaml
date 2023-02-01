@@ -15,12 +15,6 @@ spec:
       containers:
         - name: client
           image: pablocubillos/client
-          env:
-            - name: PUBLISHEABLE_STRIPE_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: publish-stripe-secret
-                  key: PUBLISHEABLE_STRIPE_KEY
 ---
 apiVersion: v1
 kind: Service
